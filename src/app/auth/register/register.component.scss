@@ -1,0 +1,19 @@
+.form-register{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+
+    .input-form-register{
+        width: 90%;
+        display: flex;
+        margin: auto auto;
+    }
+
+    .btn{
+        width: 90%;
+        margin: auto auto;
+    }
+}

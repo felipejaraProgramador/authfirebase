@@ -1,0 +1,26 @@
+<form class="form-login" [formGroup]="formLogin">
+    <h1>Iniciar sesion</h1>
+    
+    <mat-form-field class="input-form-login">
+        <mat-label>Ingrese email:</mat-label>
+        <input formControlName="email" matInput placeholder="ejemplo@ejemplo.cl" value="">
+    </mat-form-field>
+
+    <mat-form-field class="input-form-login">
+        <mat-label>Ingrese contrasena:</mat-label>
+        <input formControlName="password" matInput value="" type="password">
+    </mat-form-field>
+
+    <button (click)="onSignIn()" class="btn" mat-raised-button>Ingresar</button>
+
+
+</form>
+
+
+<div class="btn-group">
+    <button (click)="redirecToRegister()" class="btn" mat-raised-button>Registrar</button>
+
+    <button (click)="loginWithGoogle()" class="btn" mat-raised-button>Inicio con Google</button>
+</div>
+
+

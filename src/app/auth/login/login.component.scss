@@ -1,0 +1,33 @@
+.form-login{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+
+    .input-form-login{
+        width: 90%;
+        display: flex;
+        margin: auto auto;
+    }
+
+    .btn{
+        width: 90%;
+        margin: auto auto;
+    }
+}
+
+.btn-group{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    margin: auto auto;
+
+    .btn{
+        width: 90%;
+        margin: 10px auto;
+    }
+}

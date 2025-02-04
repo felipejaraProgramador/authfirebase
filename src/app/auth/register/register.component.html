@@ -1,0 +1,17 @@
+  <form class="form-register" [formGroup]="formRegister">
+    <h1>Registrar</h1>
+    
+        <mat-form-field class="input-form-register">
+            <mat-label>Ingrese email:</mat-label>
+            <input formControlName="email" matInput placeholder="ejemplo@ejemplo.cl" value="">
+        </mat-form-field>
+    
+        <mat-form-field class="input-form-register">
+            <mat-label>Ingrese contrasena:</mat-label>
+            <input formControlName="password" matInput value="" type="password">
+        </mat-form-field>
+
+        <button (click)="onSubmit()" class="btn" mat-raised-button>Registrar</button>
+
+  </form>
+
